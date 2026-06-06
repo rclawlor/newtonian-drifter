@@ -35,3 +35,4 @@ shoot={
 [rendering]
 
 rendering_device/driver.windows="d3d12"
+environment/defaults/default_clear_color=Color(0.014275199, 0.014275224, 0.014275218, 1)
