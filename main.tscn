@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://bubhfnjpl8v87"]
 
 [ext_resource type="PackedScene" uid="uid://bjhve38wq7fy8" path="res://scenes/entities/player/player.tscn" id="1_ig7tw"]
+[ext_resource type="PackedScene" uid="uid://bkenbqdg7clor" path="res://scenes/rooms/start_room.tscn" id="2_0xm2m"]
 
 [node name="Node2D" type="Node2D" unique_id=1824689075]
 
@@ -9,3 +10,7 @@ position = Vector2(1025, 484)
 
 [node name="Camera2D" type="Camera2D" parent="Player" unique_id=806423152]
 position = Vector2(-61, 56)
+
+[node name="StartRoom" parent="." unique_id=18362955 instance=ExtResource("2_0xm2m")]
+z_index = -1
+position = Vector2(865, 397)

@@ -9,6 +9,7 @@ const SPEED = 200.0
 
 func _physics_process(delta: float) -> void:
 	_aim_at_mouse()
+	move_and_slide()
 
 
 func _unhandled_input(event):

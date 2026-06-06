@@ -2,9 +2,9 @@
 extends Node
 
 @export var linear_strength:  float = 300.0
-@export var angular_strength: float = 2.0
-@export var linear_damping:   float = 8.0    # higher = stops faster
-@export var angular_damping:  float = 6.0
+@export var angular_strength: float = 1.0
+@export var linear_damping:   float = 4.0    # higher = stops faster
+@export var angular_damping:  float = 2.0
 
 var _linear_vel  := Vector2.ZERO
 var _angular_vel := 0.0
