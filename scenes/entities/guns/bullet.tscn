@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://c0j1wk7eandrv"]
+
+[ext_resource type="Script" uid="uid://dnmypgflespsk" path="res://scenes/entities/guns/bullet.gd" id="1_sodus"]
+[ext_resource type="Texture2D" uid="uid://h7c2vkscvrhr" path="res://assets/sprites/bullet.png" id="1_um7x2"]
+
+[node name="Bullet" type="Area2D" unique_id=1676495179]
+script = ExtResource("1_sodus")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1142806750]
+texture = ExtResource("1_um7x2")

@@ -3,8 +3,12 @@
 [ext_resource type="Texture2D" uid="uid://x5bkupencco5" path="res://assets/sprites/player.png" id="1_1hmtu"]
 [ext_resource type="Script" uid="uid://lnijvtsppbuk" path="res://scenes/entities/player/player.gd" id="1_58kc7"]
 [ext_resource type="Texture2D" uid="uid://4mrynuhsf5v4" path="res://assets/sprites/player_arm.png" id="2_635qg"]
+[ext_resource type="PackedScene" uid="uid://b5t3672k714e4" path="res://scenes/entities/guns/pistol.tscn" id="3_nh4ur"]
+[ext_resource type="Script" uid="uid://b057oeml5lpxy" path="res://scenes/entities/player/recoil_component.gd" id="5_bjvvg"]
+[ext_resource type="Script" uid="uid://c5qj286fvh8vx" path="res://scenes/entities/player/shoot_component.gd" id="6_8akj5"]
+[ext_resource type="PackedScene" uid="uid://c0j1wk7eandrv" path="res://scenes/entities/guns/bullet.tscn" id="7_bj7e2"]
 
-[node name="Player" type="CharacterBody2D" unique_id=980016401]
+[node name="Player" type="CharacterBody2D" unique_id=281624410]
 script = ExtResource("1_58kc7")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=976438509]
@@ -16,11 +20,21 @@ texture = ExtResource("1_1hmtu")
 [node name="ArmPivot" type="Node2D" parent="." unique_id=1106387567]
 position = Vector2(-19, 1)
 
+[node name="Pistol" parent="ArmPivot" unique_id=321098584 instance=ExtResource("3_nh4ur")]
+position = Vector2(38, 4)
+
 [node name="Muzzle" type="Marker2D" parent="ArmPivot" unique_id=1492756480]
-position = Vector2(38, -2)
+position = Vector2(65, -6)
 
 [node name="Sprite2D" type="Sprite2D" parent="ArmPivot" unique_id=1984105016]
 position = Vector2(12, 4)
 rotation = -1.5707964
 scale = Vector2(0.5, 0.5)
 texture = ExtResource("2_635qg")
+
+[node name="RecoilComponent" type="Node2D" parent="." unique_id=926993702]
+script = ExtResource("5_bjvvg")
+
+[node name="ShootComponent" type="Node2D" parent="." unique_id=741263112]
+script = ExtResource("6_8akj5")
+bullet_scene = ExtResource("7_bj7e2")

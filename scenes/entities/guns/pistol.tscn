@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://b5t3672k714e4"]
+
+[ext_resource type="Texture2D" uid="uid://dajsc7s4cstmm" path="res://assets/sprites/pistol.png" id="1_mdc5s"]
+
+[node name="Pistol" type="Node2D" unique_id=321098584]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=835816162]
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("1_mdc5s")
+
+[node name="Marker2D" type="Marker2D" parent="." unique_id=1232712497]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1193417398]

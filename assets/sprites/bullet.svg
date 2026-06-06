@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1.5627015mm"
+   height="0.90239mm"
+   viewBox="0 0 1.5627015 0.90239"
+   version="1.1"
+   id="svg8714"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="bullet.svg"
+   inkscape:export-filename="bullet.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview8716"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="21.277259"
+     inkscape:cx="2.0679356"
+     inkscape:cy="3.1254026"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs8711" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-142.25018,-131.40594)">
+    <rect
+       style="fill:#aa8800;stroke-width:4.45471;stroke-linejoin:bevel;paint-order:fill markers stroke"
+       id="rect8851"
+       width="1.0897423"
+       height="0.89999998"
+       x="142.25018"
+       y="131.40703" />
+    <circle
+       style="fill:#aa8800;stroke-width:5.37722;stroke-linejoin:bevel;paint-order:fill markers stroke"
+       id="path8905"
+       cx="143.36288"
+       cy="131.85699"
+       r="0.44999999" />
+    <path
+       style="fill:#d4aa00;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 142.62797,132.30554 0.31261,-0.89907 0.33413,-5.3e-4 -0.31243,0.90239 z"
+       id="path8909" />
+  </g>
+</svg>
